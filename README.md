@@ -529,3 +529,49 @@ Add some scripts written in `fish` to make my life easier
 changing ranger 'open-with' options, making colors in i3wm configurations more tidy
 (previously it's very messy'), hiding terminal apps from start menu,
 and many other things.
+
+The wallpaper solid color looks weirdly bright on the screenshot 
+but it looks so soft in my ThinkPad X230.
+Maybe my screen is too dull.
+
+## Update 29 September 2026
+
+Back to Debian.
+
+I miss bitmap font. So I install URxvt as terminal emulator then load my old bitmap fonts.
+The wallpaper handler and image viewer is now feh.
+Some of aliases in fish config are specific to Debian instead of openSUSE like in previous post.
+Other packages stays same.
+
+I put this setup in
+[skyscraper](https://github.com/addy-dclxvi/i3-starterpack/tree/skyscraper) branch
+
+![floating](https://github.com/addy-dclxvi/i3-starterpack/blob/skyscraper/preview/floating.png) </br>
+**Floating** I add titlebar when the window is floating,
+it will  automatically disappear on tiling and fullscreen mode.
+The fetch script is modified ufetch rewritten as fish function.
+
+![gimp](https://github.com/addy-dclxvi/i3-starterpack/blob/skyscraper/preview/gimp.png) </br>
+**Full Screen** GIMP editing photo of my last travel at Tretes Wonosalam Waterfall
+
+![tiling](https://github.com/addy-dclxvi/i3-starterpack/blob/skyscraper/preview/tiling.png) </br>
+**Tiling**
+
+![mpv](https://github.com/addy-dclxvi/i3-starterpack/blob/skyscraper/preview/mpv.png) </br>
+**Full Screen & Floating**
+
+![dmenu](https://github.com/addy-dclxvi/i3-starterpack/blob/skyscraper/preview/dmenu.png) </br>
+**dmenu** Start Menu
+
+![lockscreen](https://github.com/addy-dclxvi/i3-starterpack/blob/skyscraper/preview/lockscreen.png) </br>
+**i3lock** Lockscreen
+
+![startpage](https://github.com/addy-dclxvi/i3-starterpack/blob/skyscraper/preview/startpage.png) </br>
+**Fullscreen (Super + F)** Firefox with my startpage (included in ~/.startpage folder)
+
+![libreoffice](https://github.com/addy-dclxvi/i3-starterpack/blob/skyscraper/preview/libreoffice.png) </br>
+Just normal **Libre Office**, nothing special
+
+Mate app settings (including mate-terminal) can be restored using
+`dconf load / < dconf.ini` command.
+
